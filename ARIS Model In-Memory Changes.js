@@ -68,7 +68,7 @@ function main(){
     Report.println("LOCAL Server; Version 98.8.0.1155162");
     Report.println("");
     
-    model = new modelObject(ArisData.getSelectedModels()[0]);
+    var model = new modelObject(ArisData.getSelectedModels()[0]);
     
     //output source model
     Report.println("Source model");
